@@ -11,91 +11,99 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>Computers systems</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
-    <header>
-      <img src="/img/logocompsys.png"alt="логотип нашого магазину" width="200"/>
-      <h1>Комп'ютерний майстер</h1>
-      <hr size="3" noshade color="red">
-    </header>
-    <section>
-      
-      <hr>
-        
-        <h2> Наші переваги</h2>
-      </ul>
-      <ol>
-        <li>Безкоштовний виїзд майстра</li>
-        <li>Майстер буде у вас за 45 хвилин</li>
-        <li>Низькі ціни</li>
-        <li>Гарантія до 3 років</li>
-      </ol>
-      <hr>
-    </section>
-    <h3>Послуги</h3>
-    <a href="services.html">Список послуг</a>
-    <hr>
-    <h3> Графік роботи</h3>
-    <table border="1">
-      <tr>
-        <th>День</th>
-        <th>Час роботи</th>
-        <th>Статус</th>
-      </tr>
-      <tr>
-        <td>Понеділок</td>
-        <td>9.00 - 16.00</td>
-        <td>Працюємо</td>
-      </tr>
-      <tr>
-        <td>Вівторок</td>
-        <td>9.00 - 16.00</td>
-        <td>Працюємо</td>
-      </tr>
-      <tr>
-        <td>Середа</td>
-        <td>9.00 - 16.00</td>
-        <td>Працюємо</td>
-      </tr>
-      <tr>
-        <td>Четвер</td>
-        <td>9.00 - 16.00</td>
-        <td>Працюємо</td>
-      </tr>
-      <tr>
-        <td>п'ятниця</td>
-        <td>9.00 - 16.00</td>
-        <td>Працюємо</td>
-      </tr>
-      <tr>
-        <td>Субота</td>
-        <td>9.00 - 14.00</td>
-        <td>Працюємо</td>
-      </tr>
-      <tr>
-        <td>Неділя</td>
-        <td>0.00 - 24.00</td>
-        <td>Вихідний</td>
-      </tr>
-    </table>
-    <h4>
-        Наші контакти
-      </h4>
-      <ul type="square">
-        <li><a href="https://www.instagram.com/compsysnovomyrhorod/" target="_blank">Ми в Інстаграм</a></li>
-        <li><a href="https://klimat-oseli.webnode.com.ua/" target="_blank">Наш сайт</a></li>
-    <h4>Зворотній зв'язок</h4>  
-    <form>
-      <label for="name">Ваше ім'я</label>
-      <input type="text" id="name" placeholder="Напишіть ваше ім'я">
-      <br>
-      <label for="email">Ваш E-mail</label>
-      <input type="email" id="email" placeholder="Введіть ваш E-mail">
-      <br>
-      <label for="text">Ваше повідомлення:</label>
-      <br>
-      <textarea name=" "id="text"></textarea>
-      <input type="submit" value="Зв'язок">
-    </form>
-  </body>
+    <body>
+      <div class="container">
+        <header class="header">
+          <img src="/img/logocompsys.png"alt="логотип нашого магазину"  class="logo"/>
+          <h1 class="header-title">Комп'ютерний майстер</h1>
+          <hr size="3" noshade color="red">
+        </header>
+        <hr>
+        <div class="card bg-yellow">
+          <h2> Наші переваги</h2>
+            <ol class="list">
+              <li>Безкоштовний виїзд майстра</li>
+              <li>Майстер буде у вас за 45 хвилин</li>
+              <li>Низькі ціни</li>
+              <li>Гарантія до 3 років</li>
+            </ol>
+        </div>  
+        <div class="card bg-green">
+          <h3>Послуги</h3>
+          <a href="services.html">Список послуг</a>
+        </div> 
+        <div class="card bg-red">
+          <h3> Графік роботи</h3>
+          <table class="table">
+            <tr>
+              <th>День</th>
+              <th>Час роботи</th>
+              <th>Статус</th>
+            </tr>
+            <tr>
+              <td>Понеділок</td>
+              <td>9.00 - 16.00</td>
+              <td>Працюємо</td>
+            </tr>
+            <tr>
+              <td>Вівторок</td>
+              <td>9.00 - 16.00</td>
+              <td>Працюємо</td>
+            </tr>
+            <tr>
+              <td>Середа</td>
+              <td>9.00 - 16.00</td>
+              <td>Працюємо</td>
+            </tr>
+            <tr>
+              <td>Четвер</td>
+              <td>9.00 - 16.00</td>
+              <td>Працюємо</td>
+            </tr>
+            <tr>
+              <td>п'ятниця</td>
+              <td>9.00 - 16.00</td>
+              <td>Працюємо</td>
+            </tr>
+            <tr>
+              <td>Субота</td>
+              <td>9.00 - 14.00</td>
+              <td>Працюємо</td>
+            </tr>
+            <tr>
+              <td>Неділя</td>
+              <td>0.00 - 24.00</td>
+              <td>Вихідний</td>
+            </tr>
+          </table>
+        </div> 
+        <div class="contact">
+          <h4>
+              Наші контакти
+          </h4> 
+            <ul type="square">
+              <li><a href="https://www.instagram.com/compsysnovomyrhorod/" target="_blank">Ми в Інстаграм</a></li>
+              <li><a href="https://klimat-oseli.webnode.com.ua/" target="_blank">Наш сайт</a></li>
+            </ul>
+          <h4>Зворотній зв'язок</h4>  
+          <form>
+            <div class="form-group">
+              <label for="name">Ваше ім'я</label>
+              <input type="text" id="name" placeholder="Напишіть ваше ім'я">
+            </div>
+            <div class="form-group">
+                  <label for="email">Ваш e-mail</label>
+                  <input type="email" id="email" placeholder="Введіть ваш E-mail">
+            </div>
+            <div class="form-group"> 
+              <label for="text">Ваше повідомлення:</label>
+              <textarea name=" "id="text"></textarea>
+            </div>
+            <input type="submit" value="Зв'язок">
+          </form>
+        </div>
+      </div>
+    </body>
 </html>
